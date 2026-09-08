@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <!-- Tombol kamera -->
+    <ImageButton
+        android:id="@+id/btnCamera"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_camera"
+        android:contentDescription="Ambil Foto"
+        android:backgroundTint="@color/purple_700"
+        android:padding="12dp" />
+
+    <!-- Tombol pencarian -->
+    <ImageButton
+        android:id="@+id/btnSearch"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_search"
+        android:contentDescription="Cari"
+        android:backgroundTint="@color/teal_200"
+        android:padding="12dp" />
+
+</LinearLayout>

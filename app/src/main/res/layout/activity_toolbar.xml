@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="5dp"
+    android:background="@color/primary_dark">
+
+    <!-- Tombol menu -->
+    <ImageButton
+        android:id="@+id/btnMenu"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_menu"
+        android:contentDescription="Menu"
+        android:backgroundTint="@android:color/transparent" />
+
+    <!-- Judul toolbar (mengisi sisa ruang dengan weight=1) -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Aplikasi Saya"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <!-- Tombol pencarian -->
+    <ImageButton
+        android:id="@+id/btnSearch"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_search"
+        android:contentDescription="Cari"
+        android:backgroundTint="@android:color/transparent" />
+
+    <!-- Tombol notifikasi -->
+    <ImageButton
+        android:id="@+id/btnNotif"
+        android:layout_width="57dp"
+        android:layout_height="37dp"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="Notifikasi"
+        android:src="@drawable/ic_notif" />
+
+</LinearLayout>
